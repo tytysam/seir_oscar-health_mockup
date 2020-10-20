@@ -1,4 +1,4 @@
-[![General Assembly Logo](/ga_cog.png)](https://generalassemb.ly)
+[![General Assembly Logo](https://raw.git.generalassemb.ly/Software-Engineering-Immersive-Remote/SEIR-MAE/master/ga_cog.png?token=AAAB5O3VOG53KJIA7CW6LJ27TCZYE)](https://generalassemb.ly)
 
 # Oscar Mockup
 
