@@ -7,7 +7,6 @@ Your job will be to use Oscar's old website as a mockup and try to recreate it u
 #### Learning Objectives
 
 - HTML & CSS 
-- Positioning 
 
 #### Prerequisites
 
@@ -42,7 +41,7 @@ Your job will be to use Oscar's old website as a mockup and try to recreate it u
 1. Don't worry about matching the fonts the site uses. Just use `font-family: Arial` or `font-family: Times New Roman` or whatever you like.
 1. Don't worry about rounded corners of buttons. If you can figure it out, great!
 1. It's fine to guess at the colors
-1. **The main thing we want you to focus on is the positioning/layout!**
+1. **The main thing we want you to focus on is the layout!**
 
 ---
 
