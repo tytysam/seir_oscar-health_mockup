@@ -1,3 +1,232 @@
-.header {
+/* * {
+  border: red solid 1px;
+} */
+
+@font-face {
+  font-family: Heldane;
+  src: url(fonts/heldane-display-test-medium.woff);
+}
+
+body {
   font-family: avenir next;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+a {
+  color: #bbbbbb;
+}
+
+button {
+  border-radius: 2px;
+  border-style: solid;
+  padding: 5px 10px 5px 10px;
+}
+
+header {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  text-align: right;
+  background-color: #ffffff;
+}
+
+.menu {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+}
+
+div > .left-side {
+  float: left;
+  margin: 6px 0px 0px 75px;
+}
+
+div > .right-side {
+  margin: 0px 60px 0px 0;
+}
+
+.menu button {
+  color: #0b43db;
+  background-color: #ffffff;
+  border-color: #bbbbbb;
+  border-width: 1px;
+  padding: 5px 9px 4px 9px;
+  font-size: 25px;
+}
+
+#menu-spacer {
+  margin: 0 35px 0 35px;
+  color: #000000;
+}
+
+#wordmark {
+  color: #0b43db;
+  font-size: 40px;
+  letter-spacing: -2px;
+}
+
+.hero {
+  position: relative;
+  width: 95%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero img {
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+.hero-content {
+  position: absolute;
+  left: 100px;
+  bottom: 210px;
+  padding: 0 0 0 0;
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  font-family: Heldane;
+  font-size: 70px;
+  text-align: left;
+  letter-spacing: 3px;
+  line-height: 1.1;
+}
+
+.hero-content p {
+  font-size: 28px;
+  text-align: left;
+}
+
+.hero-content button {
+  padding: 25px 35px;
+  font-size: 25px;
+  position: absolute;
+  color: #0b43db;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+  text-align: left;
+  left: 0px;
+}
+
+.columns {
+  width: 80%;
+  column-count: 3;
+  column-gap: 25px;
+  margin: 15px auto;
+}
+
+.callout-container {
+  border: 1px #bbbbbb solid;
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.callout-container > img {
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+  position: relative;
+  bottom: 0;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.callout-container h3 {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #bbbbbb;
+  padding: 35px 0 0 0;
+}
+
+.callout-container p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.8;
+  padding: 0 30px;
+}
+
+.callout-container button {
+  color: #bbbbbb;
+  font-size: 15px;
+  border: 1px #bbbbbb solid;
+  border-radius: 5px;
+  padding: 6px 18px;
+  background-color: #ffffff;
+}
+
+.CTA {
+  width: 90%;
+  margin: 100px auto;
+  position: relative;
+}
+
+.CTA h2 {
+  font-family: Heldane;
+  font-size: 45px;
+  text-align: center;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.CTA p {
+  color: #bbbbbb;
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+}
+
+.cta-button-container {
+  position: relative;
+  text-align: center;
+}
+
+#cta-button-left {
+  width: 30%;
+  padding: 15px 0;
+  font-size: 22px;
+  color: #ffffff;
+  background-color: #0b43db;
+  border-radius: 5px;
+  border-width: 0;
+  margin: 0 15px 0 15px;
+}
+
+#cta-button-right {
+  width: 30%;
+  padding: 15px 0;
+  font-size: 22px;
+  color: #0b43db;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px #bbbbbb solid;
+  margin: 0 15px 0 15px;
+}
+
+footer {
+  width: 100%;
+  column-count: 5;
+}
+
+.footer > ul {
+  display: inline-block;
+}
+
+lt {
+  font-weight: bold;
+}
+
+footer > div > ul > li {
+  list-style-type: none;
+  color: #bbbbbb;
+  padding: 2px 0 2px 0;
+  font-size: 14px;
 }
