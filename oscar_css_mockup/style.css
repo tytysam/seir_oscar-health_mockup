@@ -70,7 +70,6 @@ div > .right-side {
 .hero {
   position: relative;
   width: 95%;
-  text-align: center;
   margin: 0 auto;
 }
 
@@ -83,8 +82,8 @@ div > .right-side {
 
 .hero-content {
   position: absolute;
-  left: 100px;
-  bottom: 210px;
+  left: 10%;
+  top: 10%;
   padding: 0 0 0 0;
   color: #ffffff;
 }
@@ -103,7 +102,7 @@ div > .right-side {
 }
 
 .hero-content button {
-  padding: 25px 35px;
+  padding: 20px 40px;
   font-size: 25px;
   position: absolute;
   color: #0b43db;
@@ -117,26 +116,24 @@ div > .right-side {
 .columns {
   width: 80%;
   column-count: 3;
-  column-gap: 25px;
+  column-gap: 3%;
   margin: 15px auto;
+  display: flex;
 }
 
 .callout-container {
   border: 1px #bbbbbb solid;
   border-radius: 5px;
   position: relative;
-  width: 100%;
   text-align: center;
+  padding: 0 0 -10% 0;
 }
 
-.callout-container > img {
+.callout-image img {
   width: 100%;
-  max-height: 100%;
-  height: auto;
   position: relative;
-  bottom: 0;
-  margin: 0 auto;
-  padding: 0;
+  vertical-align: bottom;
+  object-fit: fill;
 }
 
 .callout-container h3 {
@@ -171,7 +168,7 @@ div > .right-side {
 
 .CTA h2 {
   font-family: Heldane;
-  font-size: 45px;
+  font-size: 48px;
   text-align: center;
   padding: 0;
   margin: 0 0 30px 0;
@@ -179,7 +176,7 @@ div > .right-side {
 
 .CTA p {
   color: #bbbbbb;
-  font-size: 20px;
+  font-size: 26px;
   text-align: center;
   padding: 0;
 }
@@ -191,24 +188,28 @@ div > .right-side {
 
 #cta-button-left {
   width: 30%;
-  padding: 15px 0;
+  padding: 2.5% 0;
   font-size: 22px;
   color: #ffffff;
   background-color: #0b43db;
   border-radius: 5px;
   border-width: 0;
-  margin: 0 15px 0 15px;
+  margin: 0 3% 0 0;
 }
 
 #cta-button-right {
   width: 30%;
-  padding: 15px 0;
+  padding: 2.5% 0;
   font-size: 22px;
   color: #0b43db;
   background-color: #ffffff;
   border-radius: 5px;
   border: 1px #bbbbbb solid;
-  margin: 0 15px 0 15px;
+  margin: 0 0 0 3%;
+}
+
+#separator {
+  margin: 20% 20px 10px 20px;
 }
 
 footer {
@@ -222,6 +223,7 @@ footer {
 
 lt {
   font-weight: bold;
+  line-height: 3;
 }
 
 footer > div > ul > li {
